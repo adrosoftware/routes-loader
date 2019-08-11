@@ -1,5 +1,10 @@
 # Zend Expressive Routes and Pipeline Loader
 
+[![Build status][Master image]][Master]
+[![Coverage Status][Master coverage image]][Master coverage]
+[![Latest Stable Version][Stable version image]][Stable version]
+[![License][License image]][License]
+
 ## Purpose
 
 When building a medium to large applications on Zend Expressive is better if you can organize your routes. By default *expressive* define all the routes in the `routes.php` file under the `config` directory. For me is better if you can at least organize the routes by modules of routes prefix. For example `routes.web.php` for all the web routes and `routes.api.php ` for al the api routes.
@@ -57,3 +62,15 @@ With something like this:
 (new \AdroSoftware\Zerp\Loader('config/routes.*.php'))->load($app, $factory, $container);
 ```
 
+## Authors:
+
+[Adro Rocker](https://github.com/adrorocker).
+
+  [Master]: https://travis-ci.org/adrosoftware/zerp-loader/
+  [Master image]: https://travis-ci.org/adrosoftware/zerp-loader.svg?branch=master
+  [Master coverage]: https://coveralls.io/github/adrosoftware/zerp-loader
+  [Master coverage image]: https://coveralls.io/repos/github/adrosoftware/zerp-loader/badge.svg?branch=master
+  [Stable version]: https://packagist.org/packages/adrosoftware/zerp-loader
+  [Stable version image]: https://poser.pugx.org/adrosoftware/zerp-loader/v/stable
+  [License]: https://packagist.org/packages/adrosoftware/zerp-loader
+  [License image]: https://poser.pugx.org/adrosoftware/zerp-loader/license
