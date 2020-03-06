@@ -1,3 +1,7 @@
+## This package is abandoned
+
+> Since Zend migrated to be [Laminas](https://getlaminas.org/), now I created a new [package](https://github.com/adrosoftware/lmrp-loader) for [Mezzio](https://docs.mezzio.dev/)
+
 # Zend Expressive Routes and Pipeline Loader
 
 [![Build status][Master image]][Master]
